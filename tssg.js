@@ -17,12 +17,13 @@ program
 
   
 if(program.create) {
-              fse.copy('./setup', `./${`-%s create`, program.create}`, err=>{
-                console.log(`Typescript setup created`);
-                console.log(`cd ${`-%s create`, program.create}`);
-                console.log(`npm install`)
-              })
-       
+  try{
+    fse.copySync('./setup', `./${`-%s create`, program.create}`)
+    console.log(`cd ${`-%s create`, program.create}`);
+    console.log(`npm install`)
+  }catch(err){
+    console.log(err)
+  }    
     rl.close();
 }
 

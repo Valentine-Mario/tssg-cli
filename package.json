@@ -1,0 +1,15 @@
+{
+  "name": "commander-cli",
+  "version": "1.0.0",
+  "description": "a simple cli tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valentine Oragbakosi",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "fs-extra": "^8.0.1"
+  }
+}

@@ -29,3 +29,6 @@ tssg --create <dir name>
 
 ```
 If you fail to supply a dir name, it uses the app as the default name
+
+## Author 
+[Valentine Oragbakosi](https://github.com/Valentine-Mario)
